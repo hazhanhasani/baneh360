@@ -1,0 +1,12 @@
+{
+  "name": "baneh360",
+  "private": true,
+  "scripts": {
+    "dev:mobile": "pnpm --filter @baneh360/mobile start",
+    "dev:admin": "pnpm --filter @baneh360/admin dev",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
+}
